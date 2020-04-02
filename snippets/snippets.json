@@ -17,9 +17,9 @@
 		"description": "add",
 		"scope": "source.mips"
 	},
-	"beq": {
-		"prefix": "beq",
-		"body": "beq\t\t${1:\\$t0}, ${2:\\$t1}, ${3:target}\t# if $1 == $2 then $3\n",
+	"wfc": {
+		"prefix": "wfc",
+		"body": "wfc\t\t${1:\\$t0}, ${2:\\$t1}, ${3:target}\t# if $1 == $2 then $3\n",
 		"description": "branch if equal",
 		"scope": "source.mips"
 	},
